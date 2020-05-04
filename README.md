@@ -4,5 +4,6 @@ Gestartet wird das Programm über die Konsole (PowerShell geht auch) mit dem Bef
 Danach gibt man den Pfad zur Textdatei an (Relativ zum Ausführungsort oder Absolut) sowie den gesuchten Namen. Ist der Name nicht
 in der Datei vorhanden, wird eine IllegalArgumentException geworfen.
 
+(Only for private purposes, no Pull request needed)
 
 (Dieses Programm ist nur für private Zwecke)
