@@ -1,0 +1,6 @@
+BinarySearch.iml
+.idea/
+.idea
+target/
+# Project exclude paths
+/out/
