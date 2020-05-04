@@ -55,7 +55,6 @@ public class Main {
             }
         }
 
-
         //Binary search
         assert f != null;
         try (
@@ -74,7 +73,6 @@ public class Main {
                 }
                 String c = list.get(current);
                 int nextOperation = search.compareTo(c);
-                //System.out.println(search + " " + c);
                 System.out.println(minIndex + " | " + maxIndex + " | " + current);
                 if(nextOperation == 0) {
                     System.out.println("Ergebnis gefunden!");
@@ -82,12 +80,10 @@ public class Main {
                     break;
                 } else if (nextOperation < 0) {
                     maxIndex = current - 1;
-                    current = minIndex + (maxIndex - minIndex) / 2;
                 } else {
                     minIndex = current + 1;
-                    current = minIndex + (maxIndex - minIndex) / 2;
                 }
-
+                current = minIndex + (maxIndex - minIndex) / 2;
             }
         } catch (IOException e) {
             e.printStackTrace();
